@@ -1,0 +1,41 @@
+@media(min-width: 650px) {
+    .inferior {
+        display: flex;
+    }
+    .esquerda {
+        width: 100%;
+    }
+
+    .direita  {
+        width: 100%;
+    }
+    main {
+        max-width: 640px;
+        padding: 0%;
+    }
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .superior {
+        border-radius: 8px 8px 0px 0px;
+        padding: 2.5rem;
+    }
+    h1 {
+        height: 1.5rem;
+    }
+    .superior div p:nth-of-type(1) {
+        height: 1.125rem;
+    }
+    .superior div p:nth-of-type(2) {
+        height: 1rem;
+    }
+    .esquerda {
+        border: 0px 0px 0px 8px;
+    }
+    .direita {
+        border: none;
+        border-radius: 0px 0px 8px 0px;
+    }
+}

@@ -2,17 +2,17 @@
     padding-inline: 1.5rem;
     padding-block: 2rem;
     border-radius: 5px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
-.superior p::nth-of-type(1) {
+.superior p:nth-of-type(1) {
     font-weight: 700;
     line-height: 1.25rem;
     color: var(--Bright-Yellow);
     margin-bottom: 1rem;
 }
 
-.superior p::nth-of-type(2) {
+.superior p:nth-of-type(2) {
     line-height: 1.625rem;
     color: var(--Grayish-Blue);
     font-size: 0.875rem;
@@ -23,14 +23,52 @@
     padding: 1.5rem;
 }
 
-.esquerda p::nth-of-type(1) {
+.esquerda div p:nth-of-type(1) {
     color: white;
     font-size: 2rem;
     font-weight: 700;
     line-height: 2.375rem;
 }
 
-.esquerda p::nth-of-type(2) {
+.esquerda div p:nth-of-type(2) {
     color: white;
     opacity: 50%;
+}
+
+.price {
+    display: flex;
+    gap: 0.75rem; 
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.esquerda p {
+    color: #FFFFFF;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+button {
+    padding-block: 1rem;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.125;
+    border: none;
+    background-color: var(--Bright-Yellow);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+}
+
+.direita {
+    background-color: var(--light-cyan);
+    padding: 1.5rem;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.direita p {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: #ffffff;
+    opacity: 75%;
 }
